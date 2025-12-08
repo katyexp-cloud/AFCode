@@ -1,10 +1,10 @@
 # AFCoder
 
+Readme created 99% by GPT, there's no time!
+
 A powerful and fast desktop application built with **Tkinter** for visualizing the structure and dependencies of Python code, especially useful for complex **Object-Oriented Programming (OOP)** projects. It provides a dynamic graph of classes, functions, and files, alongside an integrated console for code execution and analysis.
 
-A.K.A. my compiler to help me orient myself in 10k lines of .py file.
-
-Readme created 99% by GPT, there's no time!
+A.K.A. my compiler to help me orient myself in 10k lines of .py file. Currently designing game Anarchy Forever with that - thus the name AFCoder a.k.a Absolutely Fucking Compiler.
 
 Layout:
 <img width="1600" height="829" alt="image" src="https://github.com/user-attachments/assets/1ba07667-2f37-4bc2-b622-80a523463cbc" />
