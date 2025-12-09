@@ -13,7 +13,7 @@ Custom Python compiler to help me orient myself in 10k lines of .py file. Curren
     * **Colored boxes** represent classes, functions, and files.
     * **Arrows** (lines) illustrate **dependencies** and **call relationships**.
     * zoom/unzoom, reset zoom, drag, quick find via bookmarked classes/defs, hover tooltips (arrows: where are they connecting to; boxes: content of def/class)
-* **Integrated Code Runner:** Execute code snippets directly from the console pane without leaving the application. Perfect for testing modules or debugging logic.
+* **Code Runner:** Execute code directly from the console pane.
 * **Canvas:** Filter and toggle visibility of different node types:
     * **Panning & Zooming** (using mouse drag and scroll wheel).
     * **Project** (blue), **Functions** (red), **Classes** (yellow) and **Methods** (green)
