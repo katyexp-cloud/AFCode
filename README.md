@@ -3,7 +3,8 @@
 
 Custom Python compiler to help me orient myself in 10k lines of .py file. Currently designing game Anarchy Forever with that - thus the name AFCoder a.k.a Absolutely Fucking Compiler.
 
-<img width="1598" height="980" alt="image" src="https://github.com/user-attachments/assets/98f9b556-3ac6-47a8-bf47-02ad588278d5" />
+<img width="1600" height="980" alt="image" src="https://github.com/user-attachments/assets/0b488287-1111-4a10-ab5f-e5b5fe61322c" />
+
 
 ---
 ## What it can do
@@ -20,7 +21,7 @@ Custom Python compiler to help me orient myself in 10k lines of .py file. Curren
     * **Dynamic Data/Variables** (blue)
 * **Console:**
     * **Search & Highlight** Yellow background after search (Next) /bookmarks
-    * **Font coloring** IDLE/IDE style + mellow black background.
+    * **Font coloring** IDLE/IDE style + mellow black background. Whole file or by lines.
     * Separation of executed code's **Standard Output** and **Error** logs.
     * **Undo/Redo:** Endless instances of undo/redo.
 * **Navigation:**
@@ -30,6 +31,7 @@ Custom Python compiler to help me orient myself in 10k lines of .py file. Curren
 ## What it can't do
 
 * compile/export straight to .exe via pyinstaller + settings
+* handle single ' and " properly in distinguishing comments for colors/deletion
 
 ---
 
@@ -72,12 +74,13 @@ Python 3.x and following modules:
 
  ### Reset view
 
-* Zoom/unzoom canvas to fit
+* Zoom/unzoom canvas via undo/redo.
 
 
 ### Hotkeys / Controls
 
 * ctrl+Z / ctrl+shift+Z: Undo/Redo
+* ctrl+R: Recolor (refresh) text
 * f5: run code
 * ctrl+s: save file (overwrite without asking)
 * ctrl+shift+s: save file as (opens filedialog)
