@@ -3,7 +3,8 @@
 
 Custom Python compiler to help me orient myself in 10k lines of .py file. Currently designing game Anarchy Forever with that - thus the name AFCoder a.k.a Absolutely Fucking Compiler.
 
-<img width="1598" height="978" alt="image" src="https://github.com/user-attachments/assets/5cd53415-413d-4f8f-8aef-63f2b32a6eea" />
+<img width="1598" height="980" alt="image" src="https://github.com/user-attachments/assets/6998bc06-394b-41c4-b56e-e4698c8f6eb6" />
+
 
 
 
@@ -17,7 +18,7 @@ Custom Python compiler to help me orient myself in 10k lines of .py file. Curren
     * zoom/unzoom, reset zoom, drag, quick find via bookmarked classes/defs, hover tooltips (arrows: where are they connecting to; boxes: content of def/class)
 * **Code Runner:** Execute code directly from the console pane.
 * **Canvas:** Filter and toggle visibility of different node types:
-    * **Panning & Zooming** (using mouse drag and scroll wheel).
+    * **Panning & Zooming** Using mouse drag and scroll wheel. Shift/Ctrl for increaed/turbo speed zoom/unzoom.
     * **Project** (blue), **Functions** (red), **Classes** (yellow) and **Methods** (green)
     * **Files** (yellow)
     * **Dynamic Data/Variables** (blue)
@@ -27,13 +28,15 @@ Custom Python compiler to help me orient myself in 10k lines of .py file. Curren
     * Separation of executed code's **Standard Output** and **Error** logs.
     * **Undo/Redo:** Endless instances of undo/redo.
 * **Navigation:**
+    * **Boosted Scrollbar:** Hold shift for increased scrolling speed. Or ctrl for turbo boost 3:->
     * **Class/def Bookmarks:** Jump instantly from the sidebar list to the corresponding class node on the canvas and its definition in the console.
+    * **Obliterate:** Dissipates the whole screen into oblivion.
 
 ---
 ## What it can't do
 
 * compile/export straight to .exe via pyinstaller + settings
-* handle single ' and " properly in distinguishing comments for colors/deletion
+* nicely find canvas nodes via bookmarks (it can do that, but it's sketchy thanks to zooming)
 
 ---
 
@@ -82,6 +85,7 @@ Python 3.x and following modules:
 ### Hotkeys / Controls
 
 * ctrl+Z / ctrl+shift+Z: Undo/Redo
+* ctrl+t: obliterate/give up on your project
 * ctrl+R: Recolor (refresh) text
 * f5: run code
 * ctrl+s: save file (overwrite without asking)
@@ -90,6 +94,7 @@ Python 3.x and following modules:
 * mousewheel: in canvas: zoom/unzoom; in text: scroll
 * left-click on box in canvas: hide
 * left-click on class/def in Bookmards: show (in text and in canvas)
+* shift+mousewheel: 2x speed scrolling/zooming
 * checkboxes:
    * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
    * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
