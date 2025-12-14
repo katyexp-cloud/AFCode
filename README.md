@@ -1,10 +1,11 @@
 # AFCode
 
 
-Custom Python compiler to help me orient myself in 10k lines of .py file. Currently designing game Anarchy Forever with that - thus the name AFCoder a.k.a Absolutely Fucking Compiler.
+Custom Python OOP compiler.
 
 Normal mode:
-<img width="1598" height="980" alt="image" src="https://github.com/user-attachments/assets/6998bc06-394b-41c4-b56e-e4698c8f6eb6" />
+<img width="1677" height="984" alt="image" src="https://github.com/user-attachments/assets/0d24e55e-a147-4f3f-9cf1-b2dd625fe0da" />
+
 
 
 
@@ -35,30 +36,16 @@ Normal mode:
 * **GUI:**
     * Manually adjustable height of listbox bookmarks.
     * Autosave of all entries and layout to .json when closed.
----
-## What would be great if it had
-* debug console jumps to bug line via click
-
----
 
 ## Known issues
 * find nodes in canvas sometimes off due to zoom
 * scrollbars glitching when resizing windows
 * obliteration is heavy on CPU
 
+## What would be great if it had
+* debug console jumps to bug line via click
 
 ---
-
-## Prerequisites
-
-Python 3.x and following modules:
-
-* **`tkinter`** (Standard Library)
-* **`subprocess`** (Standard Library)
-* **`tempfile`** (Standard Library)
-* **`os`** (Standard Library)
-* **`json`** (Standard Library)
-* **`scrolledtext`** (From `tkinter` module)
 
 ## Usage Instructions
 
@@ -90,9 +77,35 @@ Python 3.x and following modules:
 
 * Zoom/unzoom canvas via undo/redo.
 
+## Prerequisites
 
+Python 3.x and following modules:
+
+import ast
+import math
+import threading
+import subprocess
+import re
+import tempfile
+import json
+import queue
+import time
+import sys
+import os
+
+import tkinter as tk
+from tkinter import ttk, filedialog, messagebox, scrolledtext
+
+import pydot
+
+from PIL import ImageGrab, ImageTk, Image
+import numpy as np
+from numpy.fft import fft2, fftshift
+
+---
 
 ### Hotkeys / Controls
+
 
 * ctrl+Z / ctrl+shift+Z: Undo/Redo
 * ctrl+t: obliterate/give up on your project
