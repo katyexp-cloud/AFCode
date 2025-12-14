@@ -3,11 +3,8 @@
 
 Custom Python OOP compiler built on AST, Pydot and Graphviz modules.
 
-Normal mode:
+Layout (expanded):
 <img width="1677" height="984" alt="image" src="https://github.com/user-attachments/assets/0d24e55e-a147-4f3f-9cf1-b2dd625fe0da" />
-
-
-
 
 ---
 ## What it can do
