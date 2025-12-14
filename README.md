@@ -22,7 +22,7 @@ Layout (expanded):
     * **Dynamic Data/Variables** (blue)
 * **Console:**
     * **Search & Highlight** Yellow background after search (Next) /bookmarks
-    * **Autocomplete** AST based word autocomplete (based on what is loaded in .py file)
+    * **Autocomplete** AST based autocomplete
     * **Font coloring** IDLE/IDE style + mellow black background. Whole file or by lines.
     * Separation of executed code's **Standard Output** and **Error** logs.
     * **Undo/Redo:** Endless instances of undo/redo.
