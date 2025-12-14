@@ -41,6 +41,7 @@ Normal mode:
 * find nodes in canvas sometimes off due to zoom
 * scrollbars glitching when resizing windows
 * obliteration is heavy on CPU
+* obliteration click out+in glitchy
 
 ## What would be great if it had
 * debug console jumps to bug line via click
@@ -98,27 +99,34 @@ from tkinter import ttk, filedialog, messagebox, scrolledtext
 
 import pydot
 
-from PIL import ImageGrab, ImageTk, Image
 import numpy as np
+from PIL import ImageGrab, ImageTk, Image
 from numpy.fft import fft2, fftshift
 
 ---
 
 ### Hotkeys / Controls
 
-
-* ctrl+Z / ctrl+shift+Z: Undo/Redo
-* ctrl+t: obliterate/give up on your project
-* ctrl+R: Recolor (refresh) text
+* f1: toggle console lock
+* f2: resize to the left
+* f3: resize to the right
+* f4: fuck that shit
 * f5: run code
+* f6: save & run code
+* f7: build code
+* f8: save & build code
+
+* ctrl+z: undo
+* ctrl+shift+z: redo
+* ctrl+q: recolor (refresh) text
 * ctrl+s: save file (overwrite without asking)
 * ctrl+shift+s: save file as (opens filedialog)
-* ctrl+f: search in text
-* mousewheel: in canvas: zoom/unzoom; in text: scroll
-* left-click on box in canvas: hide
-* left-click on class/def in Bookmards: show (in text and in canvas)
+* ctrl+f: toggle search in console
+* mousewheel: in canvas: zoom/unzoom; in text: scroll; in middle pane: scroll; in listboxes: scroll
 * shift+mousewheel: 2x speed scrolling/zooming
 * ctrl+mousewheel: 5x speed scrolling/zooming
+* left-click on box in canvas: hide
+* left-click on class/def in Bookmards: show (in text and in canvas)
 * checkboxes:
    * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
    * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
