@@ -25,7 +25,7 @@ Layout (expanded):
     * **Search & Highlight** Yellow background after search (Next) /bookmarks
     * **Autocomplete** AST based autocomplete
     * **Font coloring** IDLE/IDE style + mellow black background. Whole file or by lines.
-    * Separation of executed code's **Standard Output** and **Error** logs.
+    * **Line wrapping** Toggle line wrapping.
     * **Undo/Redo:** Endless instances of undo/redo.
     * Tab/Shift+tab whole lines.
 * **Navigation:**
