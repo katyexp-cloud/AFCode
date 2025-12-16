@@ -37,6 +37,7 @@ Layout (expanded):
     * Manually adjustable height of listbox bookmarks.
     * Autosave of all entries and layout to .json when closed.
     * Start always with the last project open.
+    * layout: drag all nested windows and main window; minsize menu = 200px; minsize console = 700px; minsize canvas = 1px
 
 ---
 
@@ -72,6 +73,10 @@ Layout (expanded):
 ### Class/function bookmarks
 
 * fetch class and def content of imported .py file (must be in OOP mode or render manually)
+* checkboxes:
+   * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
+   * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
+   * OOP mode: automatically draws graph in real time while editing code
 
 ### Delete comments / Remove spaces
 
@@ -116,7 +121,7 @@ Layout (expanded):
 * f6: save & run code
 * f7: build code
 * f8: save & build code
-* 
+
 * ctrl+n: new instance
 * ctrl+g / shift-Open: open recent files popup
 * ctrl+z: undo
@@ -130,11 +135,6 @@ Layout (expanded):
 * ctrl+mousewheel: 5x speed scrolling/zooming
 * left-click on box in canvas: hide
 * left-click on class/def in Bookmards: show (in text and in canvas)
-* checkboxes:
-   * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
-   * Show Functions/Methods: Hide/unhide functions (def in root) and methods (def in class)
-   * OOP mode: automatically draws graph in real time while editing code
-* layout: drag all nested windows and main window; minsize menu = 200px; minsize console = 700px; minsize canvas = 1px
 
 ---
 
